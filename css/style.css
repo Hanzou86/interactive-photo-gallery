@@ -3,19 +3,23 @@
 }
 
 #search {
-  font-size: 2em;
-  margin: 20px auto;
-  display: block;
+  font-size: 0.7em;
+  height: 4.2em;
+  width: 500px;
+  margin: 3.5em auto 20px;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+  color: grey;
 }
 
 .gallery {
   width: 800px;
   height: 600px;
-  margin: auto;
+  margin: 0 auto 0 520.5px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  gap: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

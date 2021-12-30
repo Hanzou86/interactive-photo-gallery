@@ -1,0 +1,2 @@
+ask before submitting what is the best way to center the input field
+and make it mobile responsive.
