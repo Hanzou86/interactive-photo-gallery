@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+// body {
+//   height: 100vh;
+// }
+
+.gallery {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
