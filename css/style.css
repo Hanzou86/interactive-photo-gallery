@@ -15,8 +15,7 @@
 
 .gallery {
   width: 800px;
-  height: 600px;
-  margin: 0 auto 0 520.5px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
