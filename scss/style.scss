@@ -2,11 +2,13 @@
   box-sizing: border-box;
 }
 
+
 #search {
     font-size: .7em;
     height: 4.2em;
     width: 500px;
     margin: 3.5em auto 20px;
+    display: block;
     border-radius: 6px;
     border: 2px solid #ddd;
     color: grey;
