@@ -6,7 +6,8 @@
 #search {
     font-size: .7em;
     height: 4.2em;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     margin: 3.5em auto 20px;
     display: block;
     border-radius: 6px;
@@ -15,10 +16,9 @@
 }
 
 .gallery {
-  width: 60%;
+  max-width: 860px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
 }
